@@ -4,9 +4,8 @@ import {username, city} from "/home/sassy/development/labs/phase2/canvasLabs/rea
 function Home() {
   return (
     <div id="home">
-      <h1>
-        {username} is a Web Developer from {city}
-      </h1>
+      <h1>{username} is a Web Developer</h1>
+      <h1> from {city}</h1>
     </div>
   );
 }
