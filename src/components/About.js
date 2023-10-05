@@ -1,4 +1,5 @@
 import React from "react";
+import {image} from "/home/sassy/development/labs/phase2/canvasLabs/react-hooks-import-export-lab/src/data/user.js"
 
 function About() {
   return (
@@ -9,3 +10,5 @@ function About() {
     </div>
   );
 }
+
+export default About
